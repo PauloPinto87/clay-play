@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 20px;
+    border: rgba(0, 0, 0, 0.341) solid 5px;
+}
+
+
+
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.azul {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.verde {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.palavra {
+    margin-top: 20px;
+    font-size: 20px;
+    display: none;
+    font-weight: 800;
+}
+
+#palavraAzul {
+    color: #3498db;
+}
+
+#palavraVerde {
+    color: #2ecc71;
+}
+
+#resetar{
+    background-color: rgb(200, 212, 30);
+}
